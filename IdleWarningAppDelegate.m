@@ -132,6 +132,7 @@ NSString* RunAndReturnStdOut(NSString* input)
         NSRect frame = [screen frame];
         NSWindow* window = [[NSWindow alloc] initWithContentRect:frame styleMask: NSBorderlessWindowMask backing:NSBackingStoreBuffered defer:NO];
         [window setLevel:NSFloatingWindowLevel];
+        [window setAlphaValue:0.0];
         [window setIgnoresMouseEvents:TRUE];
         frame.origin.x = frame.origin.y = 0;
         [window setBackgroundColor:[NSColor blackColor]];
