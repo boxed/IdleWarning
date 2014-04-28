@@ -1,11 +1,3 @@
-//
-//  IdleWarningAppDelegate.m
-//  IdleWarning
-//
-//  Created by Anders Hovmöller on 2011-02-25.
-//  Copyright 2011 TriOptima AB. All rights reserved.
-//
-
 #import "IdleWarningAppDelegate.h"
 #include <IOKit/IOKitLib.h>
 
